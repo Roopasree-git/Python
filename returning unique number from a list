@@ -1,3 +1,5 @@
+#Create a function that takes a list of numbers and return the number that's unique.
+
 def unique_num(nums):
     for num in nums:
         if nums.count(num)==1:
