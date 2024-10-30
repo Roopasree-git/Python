@@ -1,0 +1,11 @@
+def ascii_capitalize(str):
+    letters=[]
+    for char in str:
+        ascii=ord(char)
+        if ascii%2==0:
+            letters.append(char.upper())
+        else:
+            letters.append(char.lower())
+    return ''.join(letters)
+str=input()
+print(ascii_capitalize(str))
