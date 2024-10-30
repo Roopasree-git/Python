@@ -1,0 +1,12 @@
+def equal(a,b,c):
+    if a==b==c:
+        return 3
+    elif a==b or b==c or c==a:
+        return 2
+    else: 
+        return 0
+a=int(input("a: "))
+b=int(input("b: "))
+c=int(input("c: "))
+result=equal(a,b,c)
+print(result)
