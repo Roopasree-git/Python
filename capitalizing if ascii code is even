@@ -1,3 +1,5 @@
+#Create a function that takes string as input and capitalizes a letter if its ASCII code is even annd return lower case version if its ASCII code is odd
+
 def ascii_capitalize(str):
     letters=[]
     for char in str:
