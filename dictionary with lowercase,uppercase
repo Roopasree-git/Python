@@ -1,3 +1,5 @@
+#write a function that creates a dictionary with each (key,value) pair being the (lowercase,uppercase) versions of a letter,respectively
+
 def dict(li):
     return {char:char.upper() for char in li}
 li=list(map(str,input().split(',')))
