@@ -1,0 +1,11 @@
+def vow_replace(str,a):
+    result=""
+    for char in str:
+        if char in 'aeiouAEIOU':
+            result+=a
+        else:
+            result+=char
+    return result
+str=input()
+a=input()
+print(vow_replace(str,a))
