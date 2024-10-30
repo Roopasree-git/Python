@@ -1,0 +1,4 @@
+def sort(li):
+    return sorted(li, key=len)
+li=list(map(str,input().split(',')))
+print(sort(li))
