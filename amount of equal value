@@ -1,3 +1,5 @@
+#Create a function that takes three integer arguments (a, b, c) and returns the amount of integers which are of equal value.
+
 def equal(a,b,c):
     if a==b==c:
         return 3
