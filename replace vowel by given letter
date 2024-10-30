@@ -1,3 +1,5 @@
+#Write a function, that replaces all vowels in a string with a specified vowel.
+
 def vow_replace(str,a):
     result=""
     for char in str:
