@@ -1,0 +1,4 @@
+def dict(li):
+    return {char:char.upper() for char in li}
+li=list(map(str,input().split(',')))
+print(dict(li))
